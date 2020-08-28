@@ -1,8 +1,29 @@
-header#header-top{
+header #header-top{
   width: 100%;
-  height: 90px;
+  height: 100px;
   background-color: $cl_primary;
 }
-header#jumbo-header{
+header #jumbo-header{
+  width: 100%;
+  height: 500px;
   background-image: url(./imgs/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+header #top-menu{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+header i{
+  color: blue;
+
+}
+header a{
+  color: grey;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
 }
