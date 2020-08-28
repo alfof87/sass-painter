@@ -1,0 +1,15 @@
+@import "partials/_variables.scss";
+@import "partials/_header.scss";
+
+// @for $i from 1 through 4 {
+//   .margin-top-#{i}{
+//     width: 15px * $i;
+//   }
+// }
+// $i: 4;
+// @while $i > 0{
+//   .margin-top-while-#{i}{
+//     width: 15px * $i;
+//   }
+//   $i: $i - 1;
+// }
