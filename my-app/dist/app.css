@@ -1,15 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 header #header-top {
   width: 100%;
   height: 100px;
   background-color: black;
-}
-
-header #jumbo-header {
-  width: 100%;
-  height: 500px;
-  background-image: url(./imgs/hero.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 header #top-menu {
@@ -19,30 +16,148 @@ header #top-menu {
   margin-right: 100px;
 }
 
-header i {
+header #top-menu span i {
   color: blue;
+  width: 50px;
+}
+
+header #nav {
+  display: flex;
+  justify-content: center;
+}
+
+header #nav img {
+  height: 25px;
+  margin-top: 40px;
+}
+
+header #nav span {
+  color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 50px;
 }
 
 header a {
   color: grey;
   text-decoration: none;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-header #container {
+header #jumbo-header {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background-image: url(./imgs/jumbo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header #container-one {
+  color: grey;
+  height: 400px;
+  width: 25%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  align-items: center;
 }
 
-header #subcontainer-one {
-  background-color: red;
-  height: 100%;
-  width: 25%;
+header .essential p {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+header #download {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  width: 250px;
+  height: 60px;
+  background-color: grey;
+}
+
+header #download {
+  display: flex;
+  justify-content: center;
+}
+
+header #download p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+header #download-logo {
+  width: 50px;
+  height: 50px;
+  border-left: 1px solid white;
+}
+
+header .fa-download {
+  color: white;
 }
 
 header #nav {
   width: 100%;
   height: 80px;
+  background-color: black;
+}
+
+header #container-two {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+}
+
+header #container-three {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  width: 25%;
+  height: 400px;
+  background-color: black;
+}
+
+header #violet-box {
+  width: 100px;
+  height: 40px;
+  background-color: #ff1aff;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+header .span-v {
+  color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+header #box-up-left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+header span {
+  color: grey;
+}
+
+header p, h2 {
+  color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#blue-box {
+  width: 150px;
+  height: 50px;
+  background-color: #1E90FF;
+  margin-left: 15px;
+  margin-right: 15px;
 }
