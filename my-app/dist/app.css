@@ -1,3 +1,15 @@
+.item-1 {
+  margin-left: 15px;
+}
+
+.item-2 {
+  margin-left: 30px;
+}
+
+.item-3 {
+  margin-left: 45px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -84,10 +96,10 @@ header #download {
 }
 
 header #download p {
-  margin-top: 15px;
-  margin-bottom: 15px;
   margin-left: 15px;
   margin-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 header #download-logo {
@@ -117,7 +129,7 @@ header #container-two {
 header #container-three {
   margin-top: 35px;
   margin-bottom: 35px;
-  width: 25%;
+  width: 30%;
   height: 400px;
   background-color: black;
 }
@@ -160,4 +172,32 @@ header p, h2 {
   background-color: #1E90FF;
   margin-left: 15px;
   margin-right: 15px;
+}
+
+#white-box {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 400px;
+  height: 120px;
+  background-color: white;
+}
+
+#white-box h3 {
+  color: black;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#white-box span {
+  color: violet;
+}
+
+#white-box p {
+  color: black;
+  margin: 0;
+  display: inline-block;
 }
