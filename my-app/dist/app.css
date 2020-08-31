@@ -10,6 +10,26 @@
   margin-left: 45px;
 }
 
+.item-4 {
+  margin-left: 60px;
+}
+
+.item-5 {
+  margin-left: 75px;
+}
+
+.item-6 {
+  margin-left: 90px;
+}
+
+.item-7 {
+  margin-left: 105px;
+}
+
+.item-8 {
+  margin-left: 120px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -218,29 +238,35 @@ header p, h2 {
 
 #main-div {
   width: 100%;
-  height: 800px;
+  height: 765px;
   background-image: url(./imgs/neon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #intro-bg {
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 35px;
-  margin-bottom: 35px;
   width: 100%;
   height: 600px;
   background-image: url(./imgs/intro-bg.jpg);
   background-repeat: no-repeat;
-  transform: translate(50%, 0);
+  background-position: center;
 }
 
 #intro-screen {
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 35px;
-  margin-bottom: 35px;
-  width: 100%;
+  width: 90%;
   height: 600px;
   background-image: url(./imgs/intro-screen.png);
   background-repeat: no-repeat;
+}
+
+#main-text {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+#main-text h1, #main-text p {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
