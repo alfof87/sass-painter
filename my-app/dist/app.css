@@ -236,7 +236,7 @@ header p, h2 {
   margin-top: 30px;
 }
 
-#main-div {
+#main-div1 {
   width: 100%;
   height: 765px;
   background-image: url(./imgs/neon.jpg);
@@ -269,4 +269,18 @@ header p, h2 {
 #main-text h1, #main-text p {
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+#main-div2 {
+  width: 100%;
+  height: 1000px;
+  text-align: center;
+}
+#main-div2 h1, #main-div2 p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#main-div2 img {
+  width: 60%;
+  height: 500px;
 }
